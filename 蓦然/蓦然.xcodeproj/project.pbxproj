@@ -15,6 +15,7 @@
 		7A75D8571C06F0770049B78E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A75D8551C06F0770049B78E /* LaunchScreen.storyboard */; };
 		7A75D8621C06F0770049B78E /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A75D8611C06F0770049B78E /* __Tests.m */; };
 		7A75D86D1C06F0770049B78E /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A75D86C1C06F0770049B78E /* __UITests.m */; };
+		7A75D89C1C107CBB0049B78E /* YTNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A75D89B1C107CBB0049B78E /* YTNetworkManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		7A75D8681C06F0770049B78E /* 蓦然UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "蓦然UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A75D86C1C06F0770049B78E /* __UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __UITests.m; sourceTree = "<group>"; };
 		7A75D86E1C06F0770049B78E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A75D89A1C107CBB0049B78E /* YTNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTNetworkManager.h; sourceTree = "<group>"; };
+		7A75D89B1C107CBB0049B78E /* YTNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTNetworkManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		7A75D8461C06F0770049B78E /* 蓦然 */ = {
 			isa = PBXGroup;
 			children = (
+				7A75D8991C107BC20049B78E /* Public */,
 				7A75D87E1C06FD4C0049B78E /* Resources */,
 				7A75D8831C0700240049B78E /* View */,
 				7A75D87C1C06FCE80049B78E /* ViewController */,
@@ -234,6 +238,15 @@
 			children = (
 			);
 			name = Login;
+			sourceTree = "<group>";
+		};
+		7A75D8991C107BC20049B78E /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				7A75D89A1C107CBB0049B78E /* YTNetworkManager.h */,
+				7A75D89B1C107CBB0049B78E /* YTNetworkManager.m */,
+			);
+			name = Public;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -372,6 +385,7 @@
 				7A75D84F1C06F0770049B78E /* ViewController.m in Sources */,
 				7A75D84C1C06F0770049B78E /* AppDelegate.m in Sources */,
 				7A75D8491C06F0770049B78E /* main.m in Sources */,
+				7A75D89C1C107CBB0049B78E /* YTNetworkManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

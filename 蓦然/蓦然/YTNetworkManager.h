@@ -10,4 +10,14 @@
 
 @interface YTNetworkManager : NSObject
 
+//应答数据
+@property (nonatomic) NSMutableData *replyData;
+
++ (YTNetworkManager *) manager;
+
+- (void) registWithName: (NSString *)name password:(NSString *)password email:(NSString *)email gid:(NSString *)gid;
+
+- (void) login: (NSString *)email password:(NSString *)password gid:(NSString *)gid;
+
+
 @end
